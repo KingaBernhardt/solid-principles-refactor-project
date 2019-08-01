@@ -9,7 +9,7 @@ namespace ArdalisRating
     {
         public string GetPolicyFromSource()
         {
-            return File.ReadAllText("policy.json";)
+            return File.ReadAllText("policy.json");
         }
     }
 }
