@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ArdalisRating
 {
-    public class FilePolicySource
+    public class ConsoleLogger : ILogger
     {
-        public string GetPolicyFromSource()
+        public void Log(string message)
         {
-            return File.ReadAllText("policy.json");
+            Console.WriteLine(message);
         }
     }
 }
