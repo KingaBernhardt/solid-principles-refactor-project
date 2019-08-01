@@ -1,0 +1,2 @@
+﻿Don't check if null, but create a new class/type when it is null --> UnknownPolicyRater.
+return that class instead of Null in RaterFactory.
