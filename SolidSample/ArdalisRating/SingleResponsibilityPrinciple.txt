@@ -1,0 +1,6 @@
+﻿Possible refactoring to the RatingEngine class:
+Logging -> create a ConsoleLogger class with method Log(string message) which does the Console.Writeline(message).
+The add a property to the class  of this type.
+
+Persistence: Create a new FilePolicySource and JsonPolicySerializer class which has a method GetPolicyFromSource, GetPolizyFromJsonString which returns File.ReadAllText("policy.json").
+Add a property of this type.

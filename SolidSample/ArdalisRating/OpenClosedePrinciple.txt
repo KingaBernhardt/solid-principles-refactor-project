@@ -1,0 +1,1 @@
+﻿Policy types should be open to have new type/requirement.
